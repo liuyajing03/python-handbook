@@ -1,0 +1,73 @@
+{
+    "title": "Kubernetes Handbook - Kubernetes中文指南/云原生应用架构实践手册 by Jimmy Song(宋净超)",
+    "description": "Kubernetes Handbook - Kubernetes中文指南/云原生应用架构实践手册，本书记录了本人从零开始学习和使用Kubernetes的心路历程，着重于经验分享和总结，同时也会有相关的概念解析，希望能够帮助大家少踩坑，少走弯路，还会指引大家关注Kubernetes生态周边，如微服务构建、DevOps、大数据应用、Service Mesh、Cloud Native等领域。",
+    "language": "zh-hans",
+    "author": "Jimmy Song（宋净超）",
+    "links": {
+        "sidebar": {
+        }
+    },
+    "plugins": [
+        "toggle-chapters",
+        "github",
+        "codesnippet",
+        "splitter",
+        "page-toc-button",
+        "image-captions",
+        "editlink",
+        "back-to-top-button",
+        "-lunr", "-search", "search-plus",
+        "github-buttons@2.1.0",
+        "favicon@^0.0.2",
+        "tbfed-pagefooter@^0.0.1",
+        "3-ba",
+        "theme-default",
+        "-highlight", "prism", "prism-themes",
+        "sitemap-general",
+        "lightbox",
+        "ga"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
+        "github": {
+            "url": "https://github.com/liuyajing03/python-handbook"
+        },
+        "editlink": {
+            "base": "https://github.com/liuyajing03/python-handbook/blob/master/",
+            "label": "编辑本页"
+        },
+        "image-captions": {
+            "caption": "图片 - _CAPTION_"
+        },
+        "github-buttons": {
+            "repo": "liuyajing03/python-handbook",
+            "types": ["star"],
+            "size": "small"
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © 2017-2019 | Distributed under <a href=https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh>CC BY 4.0</a> | <a href=https://jimmysong.io>jimmysong.io</a>",
+            "modify_label": " Updated at ",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "favicon": {
+            "shortcut": "favicon.ico",
+            "bookmark": "favicon.ico"
+        },
+        "3-ba": {
+            "token": "11f7d254cfa4e0ca44b175c66d379ecc"
+        },
+        "prism": {
+            "css": [
+            "prism-themes/themes/prism-ghcolors.css"
+            ]
+        },
+        "sitemap-general": {
+            "prefix": "https://jimmysong.io/kubernetes-handbook/"
+        },
+        "ga": {
+            "token": "UA-93485976-1"
+        }
+    }
+}
